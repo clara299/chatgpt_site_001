@@ -1,0 +1,43 @@
+Wow, this one was a rollercoaster. I made about three test sites that were all so bad that they all warrented starting over before I got to one that actually worked. Using the AI was so interesting. It was definitely not the "cheat code" it sometimes feels like it would be. Like any tool, it took practice and experimentation to use correctly. By the way, I'm referring to ChatGPT 3 any time I talk about the AI I used.
+
+After asking it for modules of code individually, I realised that even though I was using a conversational model that could refer to its previous answers, it didn't do that. Sure, it would do things in the same visual style, but the back end code wouldn't work together. New modules of HTML would refer to CSS that it would assume it had already given me even if it hadn't. It would structure things as though nothing it had given me before that was there, even if I specified that it was. 
+
+The solution to this became clear pretty quickly- using multiple prompts was the problem, so I had to use as few prompts as possible. So rather than letting it do any of the designing for me as I went, I followed the same steps as with a normal website project. I started by creating a few lo-fi prototypes on paper, ironing out placement of objects and the general elements I wanted included. Then I opened a word document and wrote a long description of the entire site from start to finish. That looked like this:
+"Use bootstrap to create the code for a website. I want the website to be one page, with a header that always stays on top of the page. The header should have the logo on the left side that links to the home page, and links for “projects” and “contact” on the right. Make the site in a modern style, with a white background, a sans serif typeface, and thin lines. The body of the site should start with a background image that spans the width of the page, which should have the page title over the center of the image. Under that, the page should have a box with text, and under that there should be a link to the “projects” page. Under this heading there should be three columns each with a small image, a small heading and a one sentence description. This will be links to the three most recent projects on the “projects” page, so put a link under each one. Under this, put a footer with 4 lines of basic information."
+
+I used this prompt as the starter for my site. This way, it made sure not to reference anything that didn't exist in the code because it was giving me everything I needed at once. 
+This had a few advantages. The obvious one was the lack of those outside references. A second one I hadn't considered was that it made it much easier to add modules of code. I could specify to the AI that I wanted a new code module to fit between two of the previous modules. Now I can't prove why this helped, but it did. My theory is that when I specified where on the page I would put the module, it actually went back to read the parts I was referring to so it would be able to reference them. Whatever the reason, this worked. 
+Now this page did also do some things weird, but I made it work. First thing I did was comment out the navigation bar as I wanted this to just be one page. I then had to fill in all the images. Then I started fixing problems. inserting images created so, so many problems. Many of them were incorrectly sized, in the wrong spot, or just entirely glitched out. Many of the smaller issues I could fix with one or two lines of modified code though. The larger issues I could go back to the AI and create a new module to replace the truly broken bits. 
+
+A particular challenge was the area of the page with the material choices. Getting these to look nice in the first place was difficult, and involved a lot of back and forth with the AI. However, things got really weird when I started asking it for a popup window. This involved creating javascript code, which I have never in my life seen, played with, or made. This was where the AI really struggled. Because I didn't really know exactly what I was asking for, it didn't know what to give me. I went back and forth with it a lot, and when the code it gave didn't break the website it generally did nothing at all. Eventually, I scrapped the chat I was using and started over with a really specific prompt with the information I had learned from the first chat. On this second one, I also asked it to use bootstrap specifically. This really helped, as it meant it had something to refer to and wasn't just making it up from scratch. I also did this one by giving it my existing code for that section and asking it to rewrite it. This meant that I didn't have to describe it in intricate detail as it knew what I wanted it to look like. Those factors all came together to actually work! This was a really big breakthrough and through the process of struggling with it, I learned just enough about the language to fix and change anything that I had to with the result. So through this, I had both the code I wanted and also the learning experience and the understanding of why it (eventually) worked. 
+
+It was about this time I got COVID. I tried to keep going, but I could barely see my computer in front of me, let alone work on a, frankly, barely functioning website. Now, as I look back at my work, I'm actually pretty happy with where I got with it. I really like the popup windows, and the overall layout of the site is pretty much exacvtly what I wanted it to look like. This AI revolution is pretty awesome- but anyone thinking it's a cheat code to faking a hard job with no effort has clearly never actually used it themself. 
+
+
+
+
+
+Bonus:
+
+Me: "You are a university student making a website for a class. The task is to use chatgpt to make this site. This chat is what you used. Write a short evaluation on the performance of chatgpt for this task, highlighting both what it did well and where it fell short. 
+
+ChatGPT: 
+"Evaluation of ChatGPT for Creating a Website
+
+ChatGPT proved to be a valuable tool for creating a website as a university student. It excelled in several areas and had a few limitations as well. Here's a short evaluation of its performance:
+
+Strengths:
+Versatility: ChatGPT demonstrated its versatility by assisting in generating both HTML and CSS code for the website. It provided guidance on the overall structure, layout, and styling, making it easier to create a cohesive design.
+Knowledge Base: ChatGPT's extensive training allowed it to provide accurate information and recommendations regarding web development practices. Its understanding of HTML, CSS, and Bootstrap helped ensure that the generated code followed best practices.
+Prompt Handling: ChatGPT effectively addressed each prompt, providing detailed responses that catered to the specific requirements. It consistently generated appropriate suggestions and examples, facilitating the creation of various website sections.
+Time Efficiency: By leveraging ChatGPT's conversational capabilities, the website development process was streamlined. It significantly reduced the time required to create the HTML and CSS code, enabling efficient progress.
+
+Limitations:
+Lack of Visual Understanding: Since ChatGPT is a text-based model, it does not have a visual understanding of elements or images. As a result, it was unable to provide direct assistance in manipulating or positioning visual elements on the website.
+Customization Challenges: While ChatGPT provided a solid foundation for the website, customization beyond the provided suggestions required additional manual adjustments. Fine-tuning specific design preferences or achieving complex layouts required manual intervention and design expertise.
+Limited Design Feedback: While ChatGPT was helpful in generating code snippets, it lacked the ability to provide critical design feedback or evaluate the overall visual appeal of the website. This aspect had to be addressed separately through design principles and personal judgment.
+
+In conclusion, ChatGPT proved to be a valuable resource for creating a website as a university student, delivering prompt and accurate assistance. Its versatility, knowledge base, and time efficiency greatly supported the development process. However, its limitations, such as the lack of visual understanding and limited design feedback, necessitated additional manual adjustments and external evaluation. Overall, ChatGPT was an effective tool that significantly contributed to the website creation process."
+
+
+Yeah, it got it pretty much right.

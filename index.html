@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EDGE Table</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/javascript/bootstrap.js"></script>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <!-- <nav class="navbar navbar-expand-md navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#">EDGE Table</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+  <!-- Hero Section -->
+  <section id="hero" class="bg-image">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1 class="text-white mb-4">EDGE Table</h1>
+          <a href="#" class="btn btn-primary btn-lg">Buy Now</a>
+        </div>
+        <div class="col-md-6">
+          <div class="text-right">
+            <p class="text-white mb-0">OPAL STUDIO X MIKO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <!-- Description Section -->
+  <section id="description">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="assets/images/Drawer open.29.png" class="img-fluid" alt="Detail Image 1">
+        </div>
+        <div class="col-md-6">
+          <h2>Modern Design</h2>
+          <p>The EDGE coffee table boasts a sleek, modern design that will elevate any living space. With its clean lines and minimalist 
+            aesthetic, it is the perfect centerpiece for a contemporary home. Our designers have crafted every detail with meticulous 
+            attention, resulting in a visually striking and highly functional coffee table. Whether you're looking for a stylish spot to 
+            set your drinks or create a modern workspace, the EDGE coffee table is the perfect choice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Information Section -->
+  <section id="information">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-md-2">
+          <img src="assets/images/back view.jpg" class="img-fluid" alt="Detail Image 2">
+        </div>
+        <div class="col-md-6 order-md-1">
+          <h2>High-Quality Materials</h2>
+          <p>The EDGE Table is crafted from the finest materials to ensure a product that is not only beautiful but also 
+            built to last. We use only the highest quality NSW Ironbark timber, a durable and sustainable hardwood known for its strength 
+            and resistance to decay. Our skilled craftsmen carefully select each piece of timber and use traditional techniques to create a 
+            table that is not only beautiful but also built to last. With its natural beauty and exceptional durability, the EDGE Table is 
+            a stunning addition to any home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="product-details">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Product Details</h2>
+          <p>Dimensions: 1220mm (L) x 500mm (W) x 400mm (H)</p>
+          <h4>Timber Choices</h4>
+
+
+
+          <!-- <ul class="list-unstyled">
+            <li>
+              <img src="assets/images/Swatch-Australian-Native-Ironbark.jpg" alt="Ironbark timber">
+              NSW Ironbark
+            </li>
+            <li>
+              <img src="assets/images/Spotted-Gum-Swatch-P1.jpg" alt="Spotted Gum Swatch">
+              Spotted Gum
+            </li>
+            <li>
+              <img src="assets/images/dark-walnut-wood-swatch-m.jpg" alt="Walnut timber swatch">
+              American Black Walnut
+            </li>
+          </ul> -->
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" data-toggle="modal" data-target="#ironbarkModal">
+                <img src="assets/images/Swatch-Australian-Native-Ironbark.jpg" alt="Ironbark timber">
+                NSW Ironbark
+              </a>
+            </li>
+            <li>
+              <a href="#" data-toggle="modal" data-target="#spottedGumModal">
+                <img src="assets/images/Spotted-Gum-Swatch-P1.jpg" alt="Spotted Gum Swatch">
+                Spotted Gum
+              </a>
+            </li>
+            <li>
+              <a href="#" data-toggle="modal" data-target="#blackWalnutModal">
+                <img src="assets/images/dark-walnut-wood-swatch-m.jpg" alt="Walnut timber swatch">
+                American Black Walnut
+              </a>
+            </li>
+          </ul>
+          
+          <!-- Ironbark Modal -->
+          <div class="modal fade" id="ironbarkModal" tabindex="-1" role="dialog" aria-labelledby="ironbarkModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ironbarkModalLabel">NSW Ironbark</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="assets/images/Swatch-Australian-Native-Ironbark.jpg" alt="Ironbark timber">
+                    </div>
+                    <div class="col-md-6">
+                      <h4>Description:</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, quam quis egestas euismod, sapien odio consectetur risus, sed pulvinar lacus arcu eget orci.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Spotted Gum Modal -->
+          <div class="modal fade" id="spottedGumModal" tabindex="-1" role="dialog" aria-labelledby="spottedGumModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="spottedGumModalLabel">Spotted Gum</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="assets/images/Spotted-Gum-Swatch-P1.jpg" alt="Spotted Gum Swatch">
+                    </div>
+                    <div class="col-md-6">
+                      <h4>Description:</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, quam quis egestas euismod, sapien odio consectetur risus, sed pulvinar lacus arcu eget orci.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Black Walnut Modal -->
+          <div class="modal fade" id="blackWalnutModal" tabindex="-1" role="dialog" aria-labelledby="blackWalnutModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="blackWalnutModalLabel">American Black Walnut</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="assets/images/dark-walnut-wood-swatch-m.jpg" alt="Walnut timber swatch">
+                    </div>
+                    <div class="col-md-6">
+                      <h4>Description:</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, quam quis egestas euismod, sapien odio consectetur risus, sed pulvinar lacus arcu eget orci.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <h4>Drawer Fronts</h4>
+          <ul class="list-unstyled">
+            <li>
+              <img src="assets/images/plywood-swatch.jpg" alt="Plywood drawer front">
+              Patterned Plywood
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Full-Width Image Section -->
+  <section id="full-width-image-1" class="bg-image">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <h2>Precision Craftsmanship</h2>
+            <p>EDGE is hand crafted in Canberra, each piece meticulously finished to fit together seamlessly.</p>
+          <img src="assets/images/Exploded duo.15.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Full-Width Image Section -->
+  <section id="full-width-image-2" class="bg-image">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Content for full-width image can be added here -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Email Section -->
+  <section id="email">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h2>Send us a message</h2>
+          <form>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="email">Message</label>
+                <input type="message" class="form-control" id="email" placeholder="Your message...">
+              </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>OPAL Studio</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non est non mauris consectetur blandit.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Contact Us</h4>
+          <p>Email: info@opalstudio.com</p>
+          <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Follow Us</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
